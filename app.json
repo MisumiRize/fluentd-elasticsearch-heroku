@@ -1,0 +1,12 @@
+{
+    "name": "Fluentd and elasticsearch",
+    "description": "Bootstrapping fluentd and elasticsearch",
+    "repository": "https://github.com/MisumiRize/fluentd-elasticsearch-heroku",
+    "keywords": ["fluentd", "elasticsearch"],
+    "scripts": {
+        "postdeploy": "curl -XPOST $SEARCHBOX_URL/fluentd"
+    },
+    "addons": [
+        "searchbox:starter"
+    ]
+}
