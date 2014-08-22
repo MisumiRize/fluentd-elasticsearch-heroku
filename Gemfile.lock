@@ -1,7 +1,6 @@
 GIT
-  remote: git://github.com/ably-forks/fluent-plugin-elasticsearch.git
-  revision: 5281b7b20d98767ebf97e74ae6cd1dbb937b4126
-  branch: add-auth
+  remote: git://github.com/uken/fluent-plugin-elasticsearch.git
+  revision: 6a7f11150d7c942158b1bf66d3649edcc23c33b9
   specs:
     fluent-plugin-elasticsearch (0.4.0)
       elasticsearch (~> 0)
