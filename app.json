@@ -2,6 +2,7 @@
     "name": "Fluentd and elasticsearch",
     "description": "Bootstrapping fluentd and elasticsearch",
     "repository": "https://github.com/MisumiRize/fluentd-elasticsearch-heroku",
+    "logo": "https://raw.githubusercontent.com/MisumiRize/fluentd-elasticsearch-heroku/master/icon.png",
     "keywords": [
         "fluentd",
         "elasticsearch"
