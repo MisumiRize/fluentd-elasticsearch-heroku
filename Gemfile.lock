@@ -1,27 +1,22 @@
-GIT
-  remote: git://github.com/uken/fluent-plugin-elasticsearch.git
-  revision: 6a7f11150d7c942158b1bf66d3649edcc23c33b9
-  specs:
-    fluent-plugin-elasticsearch (0.4.0)
-      elasticsearch (~> 0)
-      fluentd (~> 0)
-      patron (~> 0)
-
 GEM
   remote: https://rubygems.org/
   specs:
     cool.io (1.2.4)
-    elasticsearch (0.4.11)
-      elasticsearch-api (= 0.4.11)
-      elasticsearch-transport (= 0.4.11)
-    elasticsearch-api (0.4.11)
+    elasticsearch (1.0.5)
+      elasticsearch-api (= 1.0.5)
+      elasticsearch-transport (= 1.0.5)
+    elasticsearch-api (1.0.5)
       multi_json
-    elasticsearch-transport (0.4.11)
+    elasticsearch-transport (1.0.5)
       faraday
       multi_json
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
-    fluentd (0.10.52)
+    fluent-plugin-elasticsearch (0.5.1)
+      elasticsearch
+      fluentd (~> 0)
+      patron (~> 0)
+    fluentd (0.10.53)
       cool.io (>= 1.1.1, < 2.0.0, != 1.2.0)
       http_parser.rb (>= 0.5.1, < 0.7.0)
       json (>= 1.4.3)
@@ -30,7 +25,7 @@ GEM
       yajl-ruby (~> 1.0)
     http_parser.rb (0.6.0)
     json (1.8.1)
-    msgpack (0.5.8)
+    msgpack (0.5.9)
     multi_json (1.10.1)
     multipart-post (2.0.0)
     patron (0.4.18)
@@ -41,5 +36,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fluent-plugin-elasticsearch!
+  fluent-plugin-elasticsearch (~> 0.5.0)
   fluentd (~> 0.10.48)
